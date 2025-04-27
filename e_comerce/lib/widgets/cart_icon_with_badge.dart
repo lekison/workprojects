@@ -16,7 +16,7 @@ class CartIconWithBadge extends StatelessWidget {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (_) => const CartPage()),
+              MaterialPageRoute(builder: (_) => CartPage()),
             );
           },
         ),
